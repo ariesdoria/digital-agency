@@ -312,7 +312,7 @@
 /***Blog Section***/
 .blog-container{
   position:relative;
-  height:1018px;
+  height:900px;
   width:100%;
 }
 .blog-container-wrapper{
@@ -401,5 +401,50 @@
   color:#222;
   font-family:'Roboto',sans-serif;
 }
-
 /***End Blog Section***/
+/***Quick Actions Section***/
+.quick-actions-container{
+  position:relative;
+  width:100%;
+  height:358px;
+  background:#11749e;
+}
+.quick-actions-wrapper{
+  text-align:center;
+  margin:0 auto;
+  position:relative;
+  width:80%;
+  height:100%;
+  padding-top:80px;
+  padding-bottom:120px;
+  display:flex;
+  align-content:center;
+}
+.first-quick-actions-container{
+  width:100%;
+  height:60%;
+  position:relative;
+  padding-left:80px;
+}
+.second-quick-actions-container{
+  width:100%;
+  height:60%;
+  position: relative;
+}
+.first-quick-actions-picture-container{
+  width:20%;
+  position:absolute;
+}
+.first-quick-actions-content-container{
+  width:60%;
+  position:absolute;
+  top:3%;
+  padding-left:20%;
+}
+.first-quick-actions-h6{
+  color:#fff;
+  font-family:'Roboto',sans-serif;
+  letter-spacing:2px;
+  font-weight: 400;
+}
+/***End Quick Actions Section***/
