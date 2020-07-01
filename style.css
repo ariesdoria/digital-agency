@@ -340,7 +340,7 @@
   height:10%;
   position:absolute;
   text-align:center;
-  top:34%;
+  top:38%;
 }
 .blog-inner-heading{
   font-size:2rem;
@@ -353,6 +353,7 @@
   height:5%;
   position:relative;
   text-align:center;
+  top:2%;
 }
 .blog-second-heading{
   font-size:1.3rem;
