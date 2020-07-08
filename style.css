@@ -784,3 +784,11 @@
   letter-spacing: 4px;
 }
 /***End Contact Us Section***/
+/***Maps Section***/
+.maps-container{
+  width:100%;
+  height:355px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/***End Maps Section***/
