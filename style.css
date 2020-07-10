@@ -608,54 +608,6 @@
   letter-spacing:2px;
   font-weight:300;
 }
-.teams-member-container{
-  display:flex;
-  margin:0 auto;
-  width:80%;
-  height:100%;
-  align-content:center;
-  text-align: center;
-  position:relative;
-  top:4%;
-}
-.teams-first-member-container{
-  width:269px;
-  height:420px;
-  background:url(assets/images/team-member-image-01.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-.teams-second-member-container{
-  width:269px;
-  height: 420px;
-  background:url(assets/images/team-member-image-02.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  left:20px;
-  position:relative;
-}
-.teams-third-member-container{
-  width:269px;
-  height:420px;
-  background:url(assets/images/team-member-image-03.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  left:40px;
-  position:relative;
-}
-.teams-fourth-member-container{
-  width:269px;
-  height:420px;
-  background:url(assets/images/team-member-image-04.jpg);
-  background-repeat:no-repeat;
-  background-size: cover;
-  left:60px;
-  position: relative;
-}
-.teams-position-second-container{
-  text-align:center;
-  position:relative;
-}
 .teams-name-container{
   width:80%;
   margin:0 auto;
