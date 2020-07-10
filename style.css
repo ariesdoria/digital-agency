@@ -370,6 +370,7 @@
   text-align:center;
   position:relative;
   top:4%;
+  justify-content: center;
 }
 .blog-section-right-spacing{
   padding-right:22px;
@@ -651,35 +652,40 @@
   left:60px;
   position: relative;
 }
-.teams-position-container{
-  background-color:#fff;
-  width:81%;
-  height:50px;
-  right:25px;
-  left:25px;
-  top:90%;
-  position:relative;
-}
 .teams-position-second-container{
   text-align:center;
   position:relative;
 }
 .teams-name-container{
+  width:80%;
+  margin:0 auto;
+  background:#fff;
+  bottom:3%;
   padding-top:10px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
+  position:relative;
 }
 .teams-name{
   font-size:1.3rem;
   text-transform:uppercase;
   font-family:'Roboto',sans-serif;
   color:#11749e;
-  font-weight:300;
+  font-weight:500;
+}
+.teams-position-container{
+  padding-top:10px;
+  padding-left:25px;
+  padding-right:25px;
+  bottom:4%;
+  background:#fff;
+  position:relative;
+  margin:0 auto;
+  width:80%;
 }
 .teams-position{
-  font-size:1rem;
   text-transform:uppercase;
-  font-family:'Roboto',sans-serif;
-  font-weight:600;
+  color:#222;
+  font-family: 'Roboto',sans-serif;
 }
 /***End Teams Section***/
 /***Contact Us Section***/
