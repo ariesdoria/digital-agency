@@ -1,0 +1,106 @@
+$full-content-width:100%;
+$relative-position:relative;
+$roboto-font:'Roboto',sans-serif;
+$white-text:#fff;
+$centered-position:center;
+
+.contact-us-section{
+  width:$full-content-width;
+  height:855px;
+  background:url(assets/images/contact-bg-image.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.contact-us-wrapper{
+  text-align:$centered-position;
+  margin:0 auto;
+  position:$relative-position;
+  width:$full-content-width;
+  height:$full-content-width;
+  display: block;
+}
+.contact-us-heading-container{
+  width:$full-content-width;
+  height:28%;
+  top:5%;
+  position:$relative-position;
+}
+.contact-us-heading-h1{
+  color:#d7d7d7;
+  text-transform:uppercase;
+  font-family:$roboto-font;
+  font-size:15rem;
+  opacity:0.3;
+}
+.contact-us-inner-heading{
+  width:$full-content-width;
+  height:10%;
+  position:absolute;
+  text-align:$centered-position;
+  top:41%;
+}
+.contact-us-inner-h2{
+  font-size:2rem;
+  font-family:$roboto-font;
+  text-transform:uppercase;
+  letter-spacing: 5px;
+  color:$white-text;
+}
+.contact-us-contact-area-container{
+  width:80%;
+  height:20%;
+  display:flex;
+  top:10%;
+  position:$relative-position;
+  text-align:$centered-position;
+  align-content: $centered-position;
+  margin:0 auto;
+}
+.contact-us-input-container{
+  padding-right: 20px;
+}
+.contact-us-input-textbox{
+  width:360px;
+  height:50px;
+  background:transparent;
+  font-size:20px;
+  color:$white-text;
+  border:2px solid $white-text;
+  text-align: left;
+  text-indent:10px;
+}
+.contact-us-textarea-container{
+  width:80%;
+  display: flex;
+  margin:0 auto;
+  text-align: $centered-position;
+  align-content: $centered-position;
+}
+.contact-us-textarea{
+  width:$full-content-width;
+  background:transparent;
+  font-size:20px;
+  color:$white-text;
+  font-family: $roboto-font;
+  border: 2px solid $white-text;
+  text-align:left;
+  text-indent: 10px;
+  padding-top:15px;
+}
+.contact-us-submit-container{
+  padding-top:30px;
+  width:80%;
+  margin:0 auto;
+  height:30%;
+  position:$relative-position;
+}
+.contact-us-submit-button{
+  background:#11749e;
+  border:0px;
+  width: 230px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: 500;
+  color: $white-text;
+  letter-spacing: 4px;
+}

@@ -1,0 +1,18 @@
+.header{
+	width:100%;
+	justify-content:center;
+	align-content:center;
+	display:flex;
+	background:url(assets/images/header-bg-image.jpg);
+	height:880px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.navigation{
+	position:relative;
+	height:95px;
+	width:100%;
+	border-bottom:1px solid #d3d3d3;
+	padding-bottom:18px;
+	padding-top:10px;
+}

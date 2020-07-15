@@ -1,0 +1,99 @@
+$relative-position:relative;
+$full-content-width:100%;
+$roboto-font:'Roboto',sans-serif;
+$center-alignment:center;
+$uppercase-letter:uppercase;
+
+.blog-container{
+  position:$relative-position;
+  height:900px;
+  width:$full-content-width;
+}
+.blog-container-wrapper{
+  text-align:$center-alignment;
+  margin:0 auto;
+  position:$relative-position;
+  width:$full-content-width;
+  height:$full-content-width;
+  display:block;
+}
+.blog-heading-container{
+  width:$full-content-width;
+  height:28%;
+  top:5%;
+  position:$relative-position;
+}
+.blog-heading-h1{
+  color:#d7d7d7;
+  text-transform:$uppercase-letter;
+  font-family:$roboto-font;
+  font-size:15rem;
+}
+.blog-inner-heading-container{
+  width:$full-content-width;
+  height:10%;
+  position:absolute;
+  text-align:$center-alignment;
+  top:38%;
+}
+.blog-inner-heading{
+  font-size:2rem;
+  font-family:$roboto-font;
+  text-transform:$uppercase-letter;
+  letter-spacing: 5px;
+}
+.blog-second-heading-container{
+  width:$full-content-width;
+  height:5%;
+  position:$relative-position;
+  text-align:$center-alignment;
+  top:2%;
+}
+.blog-second-heading{
+  font-size:1.3rem;
+  font-family:$roboto-font;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.blog-section-container{
+  margin:0 auto;
+  width:80%;
+  height:$full-content-width;
+  display:flex;
+  align-content:$center-alignment;
+  text-align:$center-alignment;
+  position:$relative-position;
+  top:4%;
+  justify-content: $center-alignment;
+}
+.blog-section-right-spacing{
+  padding-right:22px;
+}
+.blog-first-section-title-container{
+  padding-top:30px;
+  padding-bottom:10px;
+}
+.blog-second-section-title-container{
+  padding-top:27px;
+  padding-bottom:10px;
+}
+.blog-third-section-title-container{
+  padding-top:31px;
+  padding-bottom:10px;
+}
+.blog-first-section-title{
+  color:#11749e;
+  text-transform:$uppercase-letter;
+  font-family:$roboto-font;
+  letter-spacing:1.5px;
+  font-weight:600;
+}
+.blog-first-content-container{
+  padding-top:10px;
+  padding-left:25px;
+  padding-right:25px;
+}
+.blog-first-content{
+  color:#222;
+  font-family:$roboto-font;
+}

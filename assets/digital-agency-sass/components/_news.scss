@@ -1,0 +1,116 @@
+$center-alignment:100%;
+$relative-position:relative;
+$roboto-font:'Roboto',sans-serif;
+$left-alignment:left;
+
+.news-section-container{
+  width:$center-alignment;
+  height:890px;
+  position:$relative-position;
+}
+.first-news-section{
+  width:$center-alignment;
+  height:326px;
+  position:$relative-position;
+  display: flex;
+}
+.first-news-content-section{
+  width:50%;
+  height:448px;
+  background:#222;
+  position:$relative-position;
+}
+.first-news-content-wrapper{
+  margin:auto;
+  position:$relative-position;
+  text-align:center;
+  display:inline-block;
+  padding:80px 30px;
+  height:287px;
+}
+.first-news-published-container{
+  margin:auto;
+  width:91%;
+  text-align:$left-alignment;
+  display:block;
+  padding-bottom:15px;
+  height:20px;
+  padding-left:45px;
+}
+.first-news-published{
+  color:#fff !important;
+  font-size:1rem;
+  font-family:$roboto-font;
+  letter-spacing:1.5px;
+}
+.first-news-title-container{
+  margin:auto;
+  width:91%;
+  text-align:$left-alignment;
+  display:block;
+  padding-bottom:15px;
+  height:20px;
+  padding-left:45px;
+}
+.first-news-title{
+  color:#fff !important;
+  font-size:1rem;
+  text-transform:uppercase;
+  font-family:$roboto-font;
+  letter-spacing:1.5px;
+}
+.first-news-image-container{
+  width:50%;
+  max-width: 50%;
+  height:448px;
+}
+.first-news-image{
+  width:$center-alignment;
+  max-width:$center-alignment;
+  height:448px;
+}
+.first-news-container{
+  margin:auto;
+  width:89%;
+  text-align:$left-alignment;
+  display:block;
+  padding:20px 50px 20px 50px;
+}
+.first-news-content{
+  color:#fff !important;
+  font-size:1rem;
+  font-family:$roboto-font;
+  letter-spacing:2px;
+}
+.second-news-section{
+  width:$center-alignment;
+  height:326px;
+  top:13%;
+  position:$relative-position;
+  display: flex;
+}
+.second-news-content-section{
+  width:50%;
+  height:448px;
+  background:#f3f3f3;
+  position:$relative-position;
+}
+.second-news-published{
+  color:#222 !important;
+  font-size:1rem;
+  font-family:$roboto-font;
+  letter-spacing:1.5px;
+}
+.second-news-title{
+  color:#222 !important;
+  font-size:1rem;
+  text-transform:uppercase;
+  font-family:$roboto-font;
+  letter-spacing:1.5px;
+}
+.second-news-content{
+  color:#222 !important;
+  font-size:1rem;
+  font-family:$roboto-font;
+  letter-spacing:2px;
+}
