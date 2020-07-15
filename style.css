@@ -776,3 +776,65 @@
   letter-spacing: 2px;
 }
 /***End Footer Section***/
+/***Styles for Different Resolutions***/
+@media screen and (max-width:1980px) and (min-width:1080px){
+  .contact-us-input-textbox{
+    width:493px;
+    height:50px;
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    border:2px solid #fff;
+  }
+}
+@media screen and (max-width:1600px) and (min-width:900px){
+  .contact-us-input-textbox{
+    width:407px;
+    height:50px;
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    border:2px solid #fff;
+  }
+}
+@media screen and (max-width:1536px) and (min-width:864px){
+  .contact-us-input-textbox{
+    width:390px;
+    height:50px;
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    border:2px solid #fff;
+  }
+}
+@media screen and (max-width:1440px) and (min-width:900px){
+  .contact-us-input-textbox{
+    width:365px;
+    height:50px;
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    border:2px solid #fff;
+  }
+}
+@media screen and (max-width:1366px) and (min-width:768px){
+  .contact-us-input-textbox{
+    width:345px;
+    height:50px;
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    border:2px solid #fff;
+  }
+}
+@media screen and (max-width:1280px) and (min-width:720px){
+  .contact-us-input-textbox{
+    width:322px;
+    height:50px;
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    border:2px solid #fff;
+  }
+}
+/***End Styles***/
